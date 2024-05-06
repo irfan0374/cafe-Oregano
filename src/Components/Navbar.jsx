@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className=" p-0 navbar bg-green">
     <div className="flex-1">
-      <a className="px-6 text-xl text-base-200 disabled">Cafe organo</a>
+      <a className="px-6 text-xl text-base-200 disabled"><Link to={'/'}>Cafe organo</Link></a>
     </div>
     <div className="flex-none">
       <ul className="menu menu-horizontal px-1">
@@ -14,10 +15,10 @@ const Navbar = () => {
               Menu
             </summary>
             <ul className="p-2 bg-base-100 rounded-t-none">
-              <li><a>Juice</a></li>
-              <li><a>Burger</a></li>
-              <li><a>pasta</a></li>
-              <li><a>pizza</a></li>
+              <li><Link to={'/juice'}>Juice</Link></li>
+              <li><Link>Burger</Link></li>
+              <li><Link>pasta</Link></li>
+              <li><Link>pizza</Link></li>
             </ul>
           </details>
         </li>

@@ -11,6 +11,8 @@ import burger from '/burger.png'
 import { Bounce, Fade } from "react-awesome-reveal";
 import { motion } from "framer-motion"
 import Footer from '../Components/Footer';
+import { Link } from 'react-router-dom';
+
 
 
 
