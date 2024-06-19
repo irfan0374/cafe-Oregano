@@ -8,13 +8,15 @@ import DetailPage from "../Pages/DetailPage"
 
 const userRoutes=()=>{
     return (
+        <>
         <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="/juice" element={<Juices_shakes/>}/>
-            <Route path="/listPage" element={<ListPage/>}/>
+            <Route path="/listPage/:category" element={<ListPage/>}/>
             <Route path="/DetailPage" element={<DetailPage/>}/>
 
         </Routes>
+        </>
 
     )
 }

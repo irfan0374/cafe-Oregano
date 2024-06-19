@@ -39,7 +39,7 @@ const DetailPage = () => {
                     </div>
                     {/* carousal */}
                     <div className=' '>
-                        <h1 className='text-gray-600 text-2xl font-sans font-semibold py-2 px-6'>
+                        <h1 className='text-gray-600 text-2xl font-sans font-medium py-2 px-6'>
                             NUTELLA SHAKES
                         </h1>
                         <h2 className='text-gray-600 text-xl font-semibold text-center'>
@@ -48,7 +48,7 @@ const DetailPage = () => {
                     </div>
                     {/* operting hours */}
                     <div className='flex justify-center py-3'>
-                        <button className="border border-black rounded-xl text-gray-600 p-3" onClick={() => document.getElementById('my_modal_1').showModal()}>operation hours</button>
+                        <button className="border border-black rounded-xl text-gray-600 p-3" onClick={() => document.getElementById('my_modal_1').showModal()}>Operation hours</button>
                         <dialog id="my_modal_1" className="modal">
                             <div className="modal-box">
                                 <h3 className="font-bold text-lg">Hello!</h3>

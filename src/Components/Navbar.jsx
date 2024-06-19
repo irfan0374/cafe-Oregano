@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className=" p-0 navbar bg-green">
+    <div className="min-w-96 p-0 navbar bg-green">
     <div className="flex-1">
       <a className="px-6 text-xl text-base-200 disabled"><Link to={'/'}>Cafe organo</Link></a>
     </div>
@@ -14,8 +14,9 @@ const Navbar = () => {
             <summary className='text-base-200'>
               Menu
             </summary>
-            <ul className="p-2 bg-base-100 rounded-t-none">
+            <ul className="p-2 bg-base-100 rounded-t-none z-10">
               <li><Link to={'/juice'}>Juice</Link></li>
+              <li><Link to={'/shake'}>shake</Link></li>
               <li><Link>Burger</Link></li>
               <li><Link>pasta</Link></li>
               <li><Link>pizza</Link></li>
