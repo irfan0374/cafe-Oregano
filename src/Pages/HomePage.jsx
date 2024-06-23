@@ -1,19 +1,8 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import carousal1 from "/Carousal1.JPG?url";
-import carousal2 from "/Carousal2.JPG?url";
-import carousal3 from "/Carousal4.JPG?url";
-import shake from '/shakes.PNG?url'
-import pizza from '/pizza.PNG?url'
-import wrap from '/wrap.PNG?url'
-import sandwitch from '/sandwitch.PNG?url'
-import waffels from '/waffels3.png'
 import starter from '/starter.jpg'
 import comboBan from '/comboBan.jpg'
 import oreganoSpecial from '/oreganoSpecial.png'
-import burger from '/burger.PNG?url'
-import { Bounce, Fade } from "react-awesome-reveal";
-import { motion } from "framer-motion"
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
 
@@ -33,19 +22,19 @@ const HomePage = () => {
     <div className="carousel-item relative h-full w-96">
       <h1 className="absolute top-64 left-4 transform -translate-y-1/2  text-white text-4xl font-sans">
 Discover Cafe Oregano: Where Flavor Comes First !</h1>
-      <img className="object-cover h-full w-full" src={carousal1} alt="Carousel 1" />
+      <img className="object-cover h-full w-full" src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148396/Carousal1_lyyvk0.jpg"} alt="Carousel 1" />
     </div>
     <div className="carousel-item relative h-full w-96">
         <h1 className="absolute top-64 left-8 transform -translate-y-1/2 text-white text-4xl  ">
       Where Every Bite Tells a Story:)
 {/* <h1 className='text-xl font-serif p-1 '>Taste the virgin</h1> */}
 </h1>
-      <img className="object-cover h-full w-full" src={carousal2} alt="Carousel 2" />
+      <img className="object-cover h-full w-full" src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148396/Carousal2_elrcgh.jpg"} alt="Carousel 2" />
     </div>
     <div className="carousel-item relative h-full w-96">
       <h1 className="absolute top-64 left-4 transform -translate-y-1/2 text-white text-4xl ">
       Discover Delights: Cafe Oregano Edition </h1>
-      <img className="object-cover h-full w-full" src={carousal3} alt="Carousel 3" />
+      <img className="object-cover h-full w-full" src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148396/Carousal4_sh3ycn.jpg"} alt="Carousel 3" />
     </div>
   </div>
 </div>
@@ -98,18 +87,18 @@ Discover Cafe Oregano: Where Flavor Comes First !</h1>
                 <div className='grid grid-cols-3 gap-4 py-6 '>
                     <Link to={"/juice"}>
                         <div>
-                            <img src={shake} alt="" className="w-24 h-20 tansform hover:scale-110 duration-200 " />
+                            <img src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148511/shakes_mayaxw.png"} alt="" className="w-24 h-20 tansform hover:scale-110 duration-200 " />
                             <h2 className="text-balance font-serif">Shakes</h2>
                         </div>
                     </Link>
                     <Link  to={'/listPage/burger'}>
                     <div>
-                        <img src={burger} alt="" className="w-20 h-20 transform hover:scale-110 duration-200 " />
+                        <img src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148511/burger_f9ivvj.png"} alt="" className="w-20 h-20 transform hover:scale-110 duration-200 " />
                         <h2 className=" text-balance font-serif">Burger</h2>
                     </div>
                     </Link>
                     <Link to={'/listPage/pizza'}>
-                    <div><img src={pizza} alt="" className="w-20 h-20 transform hover:scale-110 duration-200" />
+                    <div><img src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148508/pizza_ljitle.png"} alt="" className="w-20 h-20 transform hover:scale-110 duration-200" />
                         <h2 className=" text-balance font-serif">Pizza</h2>
                     </div>
                     </Link>
@@ -119,12 +108,12 @@ Discover Cafe Oregano: Where Flavor Comes First !</h1>
                     </div>
                     </Link>
                     <Link to={'/listPage/sandwich'}>
-                    <div><img src={sandwitch} alt="" className="w-20 h-20 transform hover:scale-110 duration-200" />
+                    <div><img src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148508/sandwitch_pvu1oe.png"} alt="" className="w-20 h-20 transform hover:scale-110 duration-200" />
                         <h2 className=" text-balance font-serif">Sandwitch</h2>
                     </div>
                     </Link>
                     <Link to={'/listPage/wrap'}>
-                    <div><img src={wrap} alt="" className="w-20 h-20 transform hover:scale-110 duration-200" />
+                    <div><img src={"https://res.cloudinary.com/dlcnf8yfh/image/upload/v1719148510/wrap_hdlsut.png"} alt="" className="w-20 h-20 transform hover:scale-110 duration-200" />
                         <h2 className=" text-balance font-serif">Wrap</h2>
                     </div>
                     </Link>
