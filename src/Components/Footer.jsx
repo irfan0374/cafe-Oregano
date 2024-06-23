@@ -3,7 +3,7 @@ import logo from '/organo_logo.png'
 
 const Footer = () => {
   return (
-    <footer className="footer py-7 px-7 bg-green text-neutral-content flex place-content-between ">
+    <footer className=" py-7 px-7 bg-green text-neutral-content flex place-content-between ">
     <aside>
         <img className=" w-16 h-16" src={logo} alt='logo' />
 
